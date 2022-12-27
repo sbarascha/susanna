@@ -1,0 +1,27 @@
+h1 {
+    color:darkgreen;
+    font-family: Verdana;
+    font-size: 50px;
+    display: block;
+    margin: auto;
+}
+
+.wallpaper {
+    background-color: rgba(244, 245, 173, 0.48);
+  }
+  
+
+#logo-image img {
+    max-width: 500px;
+    max-height: 500px;
+    display: inline-block;
+    margin: auto;
+  }
+
+  #headshot-image img {
+    max-width: 500px;
+    max-height: 500px;
+    display: inline-block;
+    margin: auto;
+  }
+  
