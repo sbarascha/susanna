@@ -7,7 +7,7 @@ h1 {
 }
 
 .wallpaper {
-    background-color: rgba(244, 245, 173, 0.48);
+    background-color: rgba(173, 245, 213, 0.48);
   }
   
 
@@ -19,9 +19,11 @@ h1 {
   }
 
   #headshot-image img {
-    max-width: 500px;
-    max-height: 500px;
-    display: inline-block;
-    margin: auto;
+    width: 100%;
+    height: auto;
   }
   
+  .subheading {
+    text-align:center;
+    font-family: 'Comfortaa', cursive;
+  }
