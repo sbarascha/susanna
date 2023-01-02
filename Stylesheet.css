@@ -1,29 +1,141 @@
+div {
+    padding: 40px;
+}
+
+section {
+    border-bottom:black solid 1px;
+    padding: 40px;
+    width:auto;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    text-align: center;
+
+}
+
+header {
+    background-color:rgb(248, 248, 248);
+    opacity: 1;
+    position: sticky; 
+    display: table;
+    margin:auto; /* center the table */
+    border-bottom: solid 1px black;
+    top: 0;
+    height: 60px;
+    width: auto;
+}
+
+table {
+    background-color: transparent;
+    table-layout: fixed;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+td {
+    background-color: transparent;
+    border-right: 1px black solid;
+    text-align: center;
+    overflow: hidden;
+    height: 60px;
+    max-width:100px;
+    margin: 0;
+    padding: 0;
+}
+
+#sitetitle {
+}
+
+h3 {
+    color: black;
+    font-family: 'Forum';
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 0px;
+    padding: 20px;
+}
+
+li {
+    border-right:black solid 1px;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+}
+
+h1.sitename {
+    max-width: 10px;
+    padding: 0;
+    margin:auto;
+}
+
+body {
+    background-color:rgb(248, 248, 248);
+}
+
+footer {
+    text-align:center;
+}
+
 h1 {
-    color:darkgreen;
-    font-family: Verdana;
-    font-size: 50px;
+    color:rgb(0, 0, 0);
+    font-family: 'Forum';
+    font-weight: bold;
+    font-size: 40px;
     display: block;
     margin: auto;
 }
 
-.wallpaper {
-    background-color: rgba(173, 245, 213, 0.48);
-  }
-  
+h2 {
+    color:black;
+    font-family: 'Forum';
+    font-weight: bold;
+    font-size: 50px;
+    margin: auto;
+    text-align: center;
+    text-transform:uppercase;
+    padding: 40px;
+}
 
-#logo-image img {
-    max-width: 500px;
+#sectiontitle {
+    border-bottom:black solid 1px;
+    padding: 40px;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.biography {
+    border: dotted 4px rgb(85, 84, 84);
+    background-color: #a2cf983b;
+    padding: 20px 20px 30px 30px;
+    margin: 20px;
+}
+
+#biography {
+    text-align: justify;
+}
+
+button {
+    background-color:#ffffffaf;
+    border: dotted 1px black;
+    margin: 0;
+}
+
+
+a {
+    color: black;
+    text-decoration: none;
+    max-height: 60px;
+}
+
+  #sbheadshot {
+    max-width: auto;
     max-height: 500px;
-    display: inline-block;
     margin: auto;
   }
-
-  #headshot-image img {
-    width: 100%;
-    height: auto;
-  }
   
-  .subheading {
-    text-align:center;
-    font-family: 'Comfortaa', cursive;
-  }
