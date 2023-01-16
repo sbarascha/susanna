@@ -1,0 +1,120 @@
+body {
+    margin:0%;
+    background-color: rgb(248, 255, 251);
+}
+
+img {
+    max-width: 100%;
+}
+
+button {
+    font-family: Forum;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: none;
+    height: 80px;
+    width: 200px;
+}
+
+p {
+    font-family: Montserrat;
+    font-size: 15px;
+    color: black;
+    font-weight: 400;
+    margin: 30px;
+    text-align: justify;
+    overflow:hidden;
+}
+
+header {
+    display:flex;
+    border-top: 1px black solid;
+}
+
+header > div {
+    flex: 1 0 200px;
+    border-right: solid black 1px;
+    text-align: center;
+}
+
+
+button.sitename {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#socialmenu {
+    border: none;
+}
+
+#socialicon {
+    width: 30px;
+}
+
+#socialicon a {
+    color: black;
+}
+
+.blog #container {
+    display: flex;
+    justify-content:space-between;
+    margin: 90px;
+
+}
+
+.blog #feature {
+    border: 1px solid black;
+    margin: 40px;
+}
+
+.blog h2 {
+    font-family: Forum;
+    font-size: 25px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 30px;
+}
+
+.blog #title {
+    font-family: Forum;
+    font-size: 50px;
+    text-transform: uppercase;
+    display:block;
+    text-align: center;
+    border-bottom: 1px black solid;
+    border-top: 1px black solid;
+}
+
+.about #container {
+    display: flex;
+    flex: 1 0 700px;
+    justify-content:space-between;
+    align-items: center;
+    margin: 90px;
+    border: 1px black solid;
+    text-align: justify;
+}
+
+.about #feature {
+    padding: 100px;
+}
+
+.about h1  {
+    font-family: Forum;
+    font-size: 40px;
+    text-transform: uppercase;
+    display:block;
+    text-align: center;
+}
+
+.about img {
+    align-items: stretch;
+    max-height: 700px;
+    min-width: 500px;
+}
+
+.about #headshot {
+    
+}

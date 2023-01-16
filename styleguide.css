@@ -1,0 +1,79 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    margin: 10%;
+    text-align: center;
+}
+
+h1 {
+    color: goldenrod;
+    font-family: Forum;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+h2 {
+    font-family: Montserrat;
+    font-size: 20px;
+    color: green;
+    letter-spacing: 1px;
+}
+
+.container {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.container > div {
+    border: dotted black 2px;
+    margin: 2px;
+    display: inline-block;
+    padding: 5px;
+    text-align: center;
+}
+
+.color1 {
+    background-color: black;
+    color: white;
+}
+
+.color2 {
+    background-color: rgb(240, 248, 248);
+    color: black;
+}
+
+.color3 {
+    background-color: hsla(109, 36%, 70%, 0.231);
+    color: black;
+}
+
+.font1 {
+    font-family: Forum;
+}
+
+.fontname {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.fontnormal {
+    font-style: none;
+    font-weight: normal;
+}
+
+.fontbold {
+    font-weight: bold;
+}
+
+.fontitalics {
+    font-style: italic;
+}
+
+.font2 {
+    font-family: Montserrat;
+}
+
+li {
+    text-align: left;
+}
